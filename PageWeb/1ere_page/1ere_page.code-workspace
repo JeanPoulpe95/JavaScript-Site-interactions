@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../2eme_page"
+		},
+		{
+			"path": "../3eme_page"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "2eme_page",
+		"liveServer.settings.port": 5501
+	}
+}

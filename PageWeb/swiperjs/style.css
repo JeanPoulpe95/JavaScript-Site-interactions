@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+}
+
+.swiper-slide {
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    flex-direction: column;
+    font-size: 18px;
+    padding-left: 100px;
+}
+
+
+.title {
+    font-weight: bold;
+    font-size: 72px;
+    color: black;
+    margin-bottom: 20px; 
+}
+
+.subtitle {
+    letter-spacing: 3px;
+    font-size: 24px;
+    color: black;
+}
+
+.slide-dw {
+    background-image: url(./1909342lpw-1909353-jpg_3985179.jpg);
+    background-size: cover;
+    
+
+    
+}
+
+.slide-cd{
+    background-image: url(./Illustration-workInProgress-AudiR8-en-Route-Florence-Gendre-Illustratrice.jpg);
+    background-size: cover;
+}
+
+.slide-cdeb{
+    background-image: url(./images_list-r4x3w1000-5788e6f340e6f-audi-r8-v10-plus-5-2-fsi-quattro-s-tronic-7-550-ch-2012_50.jpg);
+    background-size: cover;
+}
+
+
+
+
+
+
+
+

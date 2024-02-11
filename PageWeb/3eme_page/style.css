@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Advent+Pro:ital,wght@1,200&family=Dancing+Script:wght@600&display=swap");
+/* il faut importer les fent sur google fent puis clique sur le @ pour prendre le style css */
+@import url("https://fonts.googleapis.com/css2?family=Advent+Pro:ital,wght@1,200&family=Dancing+Script:wght@600&family=Unbounded&display=swap");
+style > * {
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  list-style: none;
+}
+
+h1 {
+  height: 4%;
+  font-size: 4em;
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 30px;
+  color: rgba(255, 255, 255, 0.87);
+  font-family: Unbounded;
+}
+
+h2 {
+  font-family: Unbounded;
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 30px;
+  font-size: 1.8em;
+  color: rgba(255, 255, 255, 0.87);
+}
+
+.photo1 {
+  padding-top: 300px;
+  background: url(/3eme_page/audiR82006.jpg) no-repeat fixed 50% 50%;
+  background-size: cover;
+  height: 1000px;
+}
+
+.photo2 {
+  padding-top: 300px;
+  background: url(/3eme_page/audiR82015.jpg) no-repeat fixed 50% 50%;
+  background-size: cover;
+  height: 1000px;
+}
+
+.photo3 {
+  padding-top: 300px;
+  background: url(/3eme_page/audiR82019.jpg) no-repeat fixed 50% 50%;
+  background-size: cover;
+  height: 1000px;
+}
+
+.photo4 {
+  padding-top: 300px;
+  background: url(/3eme_page/audiR8.jpg) no-repeat fixed 50% 50%;
+  height: 1000;
+  background-size: cover;
+}
+
+.conclusion h3 {
+  font-family: Unbounded;
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 500px;
+  font-size: 1.8em;
+  color: rgba(255, 255, 255, 0.87);
+  margin: 40px;
+}
+
+#copyright {
+  color: white;
+  text-align: center;
+  font-size: 1.7em;
+  margin-top: 100px;
+}
+
+#icons {
+  text-align: right;
+  font-size: 2em;
+  margin: 40px;
+  font-weight: 300;
+  text-align: center;
+}
+
+@media screen and (max-width:900px){
+    .photo1, .photo2, .photo3, .photo4{
+        height: 4px;
+        padding-top: 500px;
+        margin: 10%;
+        display: flex;
+    }
+    
+}

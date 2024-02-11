@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Audi R8</title>
+    <link rel="stylesheet" href="style.css">
+ <!-- grande list d'icone pour pemettre d'identifier -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li id="logo"><a href="#">Audi</a></li>
+                <!-- pour dupliquer maj+alt et fleche du bas -->
+                <!-- entouré de la balise "a" c'est donc un lien -->
+                <!-- la destination est # donc en haut de la page -->
+                <li><a href="../swiperjs/index.html">Voir plus de photos</a></li>
+                <li><a href="../formulaires/index.html">Formulaire</a></li>
+                
+                <li><a href="#contact">Achat</a></li>
+                
+                
+                <!-- rester cliquer sur alt pour modifier plusieurs choses a la fois -->
+            </ul>
+
+           
+            <button id="Mode">Mode sombre</button>
+           
+        </nav>
+        <div id="imagePrincipale">
+            <h1>Audi R8</h1>
+            <div id="premierTrait"></div>
+            <h3>2022</h3>
+        </div>
+    </header>
+    <section id="presentation">
+        <div id="texteIntro">
+            <h2>Une voiture unique </h2>
+             <h4>L'Audi R8 2022 incarne l'essence de la performance automobile alliée à un design saisissant. Cette supercar emblématique marie puissance, agilité et luxe, offrant une expérience de conduite inégalée sur route et sur piste.</h4>
+        </div>
+
+
+
+
+    
+            <div class="imagesVoitures1">
+                <h4>L'esthétique de l'Audi R8 2022 est un mariage parfait entre élégance et sportivité. Des lignes dynamiques et sculptées soulignent sa silhouette audacieuse, tandis que des détails distinctifs tels que la calandre Singleframe hexagonale et les phares LED Matrix ajoutent une touche de sophistication moderne.</h4>
+                    <a href="../3eme_page/index.html"><img src="media/arriere.jpg" alt="Arrière Audi R8"></a></div>
+                <!-- alt permet de mettre un mot au lieu de l'image -->
+            
+            
+            <div class="imagesVoitures2">
+                <h4>Sous le capot, l'Audi R8 est propulsée par un moteur V10 atmosphérique.<br> Délivrant une puissance impressionnante aux quatre roues grâce au système de transmission intégrale quattro. Cette combinaison offre des performances de pointe, avec des accélérations fulgurantes et une tenue de route exceptionnelle, faisant de chaque trajet une expérience électrisante.</h4>
+                        <a href="../2eme_page/index.html"><img src="media/moteur.jpg" alt="courbe audi r8"></a></div>
+        
+                <!-- <a href="#"> </a> pour faire en sorte de cliquer sur quelque chose -->
+            
+            <div class="imagesVoitures3">
+                <h4>À l'intérieur, l'Audi R8 offre un habitacle raffiné, mettant en avant des matériaux de haute qualité et un design ergonomique. Les sièges sport en cuir, le volant multifonction et les finitions haut de gamme créent un environnement de conduite luxueux et confortable.</h4>
+                     <img src="media/interieur.jpg" alt="haut audi r8"></div>
+
+    </section>
+
+
+    <div class="tab">
+        <button class="tablinks" onclick="OpenAudi(event, 'A')">Général</button>
+        <button class="tablinks" onclick="OpenAudi(event, 'B')">Moteur</button>
+        <button class="tablinks" onclick="OpenAudi(event, 'C')">Performance</button>
+        <button class="tablinks" onclick="OpenAudi(event, 'D')">Intérieur</button>
+        <button class="tablinks" onclick="OpenAudi(event, 'E')">Extérieur</button>
+      </div>
+      
+      <!-- Tab content -->
+      <div id="A" class="tabcontent">
+        <h3>Général</h3>
+        <p>L'Audi R8 est une voiture de sport fabriquée par le constructeur automobile allemand Audi. Elle est célèbre pour son design élégant, ses performances impressionnantes et son moteur puissant.</p>
+      </div>
+      
+      <div id="B" class="tabcontent">
+        <h3>Moteur</h3>
+        <p>L'Audi R8 est équipée d'un moteur V10 atmosphérique qui délivre une puissance exceptionnelle. Ce moteur est disponible dans différentes versions, offrant des niveaux de performance variés pour répondre aux besoins des conducteurs passionnés de sport automobile.</p>
+      </div>
+      
+      <div id="C" class="tabcontent">
+        <h3>Performance</h3>
+        <p>Avec son moteur puissant et sa conception aérodynamique, l'Audi R8 offre des performances exceptionnelles sur route et sur piste. Elle peut accélérer de 0 à 100 km/h en seulement quelques secondes et atteindre des vitesses impressionnantes.</p>
+      </div>
+      
+      <div id="D" class="tabcontent">
+        <h3>Intérieur</h3>
+        <p>L'intérieur de l'Audi R8 est conçu pour offrir un confort maximal aux conducteurs et aux passagers. Les matériaux de haute qualité, les finitions luxueuses et les technologies avancées contribuent à créer une ambiance de conduite raffinée et sophistiquée.</p>
+      </div>
+      
+      <div id="E" class="tabcontent">
+        <h3>Extérieur</h3>
+        <p>L'Audi R8 présente un design extérieur distinctif et dynamique qui attire les regards partout où elle passe. Sa silhouette élancée, ses lignes élégantes et ses détails sportifs en font une voiture emblématique de la marque Audi.</p>
+      </div>
+
+
+
+        <footer>
+           
+            <h2>Cagnotte ! Tentez de gagner votre Audi R8</h2>
+            <form>
+                
+                <input placeholder="Nom">
+                <input placeholder="Email">
+               
+                <textarea placeholder="Votre message ici..."></textarea>
+               
+                <button>Envoyer</button>
+            </form>
+            <div id="deuxiemeTrait"></div>
+            <div id="copyrightEtIcons"></div>
+              <div id="copyright">
+                
+                <span>© fromThéoPourade; 2023</span>
+              </div>
+              <div id="icons">
+                <a href="http://www.twitter.fr"><i class="fa fa-twitter"></i>
+                    <!-- ça permet d'avoir le logo twitter et de s'y diriger -->
+                <a href="http://www.facebook.fr"><i class="fa fa-facebook"></i></a>
+                <a href="http://www.instagram.com"><i class="fa fa-instagram"></i></a>
+
+              </div>
+
+
+
+        </footer>
+      
+        <script src="./main.js"></script>
+       <script src="./main2.js"></script>
+
+    
+</body>
+</html>

@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Advent+Pro:ital,wght@1,200&family=Dancing+Script:wght@600&display=swap");
+/* il faut importer les fent sur google fent puis clique sur le @ pour prendre le style css */
+@import url("https://fonts.googleapis.com/css2?family=Advent+Pro:ital,wght@1,200&family=Dancing+Script:wght@600&family=Unbounded&display=swap");
+style > * {
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+  height: 4%;
+  font-size: 4em;
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 30px;
+  color: rgb(255, 255, 255);
+}
+
+h2 {
+  font-family: Unbounded;
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 30px;
+  font-size: 1.8em;
+  color: rgb(255, 255, 255);
+  margin: 70px;
+}
+
+.photo {
+  padding-top: 60px;
+  /* no repeat pour ne pas avoir 2x l'image et fixed pour pas qu'elle bouge et 50/50 pour une image centré */
+  background: url(/2eme_page/moteur2.jpg) no-repeat fixed 50% 50%;
+  /* permet de recouvrir si on alonge la photo */
+  background-size: cover;
+  /* pour la taille de l'image */
+  height: 4000px;
+}
+
+#copyright {
+  color: white;
+  text-align: center;
+  font-size: 1.7em;
+  margin-top: 100px;
+}
+
+#icons {
+  text-align: right;
+  font-size: 2em;
+  margin: 40px;
+  font-weight: 300;
+  text-align: center;
+}
